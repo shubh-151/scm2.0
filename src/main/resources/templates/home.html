@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 data-th-text="${name}">Welcome to home page</h1>
+      <p>Address : <span data-th-text="${Address}"></span></p>
+      <p>GitHub Repo Link : <span th:text="${GitRepo}"></span></p>
+      <a data-th-href="${GitRepo}">GitHubLinkClickMe</a>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nam
+        commodi, atque praesentium explicabo, ab dolore esse fugit, totam
+        perspiciatis sapiente itaque labore eum repudiandae quae distinctio.
+        Consequuntur esse similique quod quia, commodi officia cum iusto
+        voluptatum at aperiam? Reprehenderit alias sapiente quod autem libero
+        cupiditate saepe atque sint odit?
+      </p>
+    </div>
+  </body>
+</html>
