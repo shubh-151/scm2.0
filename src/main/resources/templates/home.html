@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" data-th-href="@{'/css/output.css'}"/>
   </head>
   <body>
     <div class="container">
-      <h1 data-th-text="${name}">Welcome to home page</h1>
+      <h1 data-th-text="${name}" class="text-3xl">Welcome to home page</h1>
       <p>Address : <span data-th-text="${Address}"></span></p>
       <p>GitHub Repo Link : <span th:text="${GitRepo}"></span></p>
       <a data-th-href="${GitRepo}">GitHubLinkClickMe</a>
