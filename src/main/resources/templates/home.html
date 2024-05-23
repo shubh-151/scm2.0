@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" data-th-href="@{'/css/output.css'}"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"  rel="stylesheet" />
   </head>
   <body>
-    <div class="container">
+    <div class="bg-gray-200 w-1/2 p-5 mx-auto mt-5 rounded border">
       <h1 data-th-text="${name}" class="text-3xl">Welcome to home page</h1>
       <p>Address : <span data-th-text="${Address}"></span></p>
       <p>GitHub Repo Link : <span th:text="${GitRepo}"></span></p>
@@ -21,5 +22,6 @@
         cupiditate saepe atque sint odit?
       </p>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
   </body>
 </html>
